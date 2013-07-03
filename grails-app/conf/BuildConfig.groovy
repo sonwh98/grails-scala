@@ -22,7 +22,7 @@ grails.project.dependency.resolution = {
     mavenCentral()
   }
   dependencies {
-    def scalaVersion = '2.9.1'
+    def scalaVersion = '2.10.2'
     build "org.scala-lang:scala-compiler:$scalaVersion",
       "org.scala-lang:scala-library:$scalaVersion"
     compile "org.scala-lang:scala-compiler:$scalaVersion",
